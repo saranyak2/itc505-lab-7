@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: pink; /* Set your desired background color */
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.mad-lib-header {
+  text-align: center;
+}
+
+form {
+  background-color: grey; /* Set the form background color */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: vilot; /* Set the submit button background color */
+  color: #fff; /* Set the text color for the submit button */
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: vilot; /* Set the hover background color for the submit button */
+}
